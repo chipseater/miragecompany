@@ -3,7 +3,11 @@
     src: url("../fonts/creato_display/CreatoDisplay-Medium.otf");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@font-face {
+  font-family: 'Merriweather Sans';
+  src: url("../fonts/Transformers Movie.ttf");
+}
+
 
 h1 {
     text-align: center;
@@ -47,4 +51,9 @@ a:visited {
 }
 .unvanish {
   display:block
+}
+h1.blue {
+  color: $color-1;
+  padding-top: 10px;
+  font-size: 5em;
 }

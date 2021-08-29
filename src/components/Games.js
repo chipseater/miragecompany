@@ -4,7 +4,7 @@ import Card from './Card'
 const Games = () => {
     return (
         <div className="games">
-            <h1>Nos Jeux</h1>
+            <h1 className="blue">Nos Jeux</h1>
             <ul className="cards">
                 <Card name="The Night Walker" description="le MNORPG de demain" nbOfPlayers="0" />
             </ul>
