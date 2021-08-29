@@ -14,13 +14,14 @@ const Games = () => {
         axios.get('http://localhost:3003/games/')
          .then((res) => {setData(res.data)})
     }
-    // setData(Array.from(data))
 
     return (
         <div className="games">
             <h1 className="blue">Nos Jeux</h1>
             <ul className="cards">
-                {data.map((game) => (<Card key={game.id}
+                {data.sort((a,b) => {
+                return(b.nbOfPlayers - a.nbOfPlayers)})
+                .map((game) => (<Card key={game.id}
                 name={game.name} description={game.descr} nbOfPlayers={game.nbOfPlayers}/>))}
             </ul>
         </div>

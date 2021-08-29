@@ -16,12 +16,12 @@ const Navigation = () => {
 
     return(
         <div className="Navigation">
-            <NavLink className="banner" exact to="/">
+            <NavLink className="banner" exact to="/#">
               <img src="logo-blanc.png" className="logo" alt="The mirage comagny logo "/>
               <h1 className="text-banner">The Mirage Company</h1>
             </NavLink>
-            <NavLink exact to="/games" className="nav-link" activeClassName="nav-link-active">Jeux</NavLink>
-            <NavLink exact to="/a-propos" className="nav-link" activeClassName="nav-link-active">À propos</NavLink>
+            <NavLink exact to="/games#" className="nav-link" activeClassName="nav-link-active">Jeux</NavLink>
+            <NavLink exact to="/a-propos#" className="nav-link" activeClassName="nav-link-active">À propos</NavLink>
         </div>
 
     )

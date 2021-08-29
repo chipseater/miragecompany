@@ -1,3 +1,11 @@
+# Pour lancer mon super projet
+- Télécharger node **PUIS** yarn
+- `cd` le projet
+- Faire `yarn i` pour installer les dépendances
+- Faire `yarn server` et `yarn start` (dans deux cmd diférents, ils tournent en fond)
+- Attendre que Chrome se lance pour pouvoir utiliser le projet
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
