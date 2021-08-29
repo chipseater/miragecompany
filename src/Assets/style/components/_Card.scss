@@ -19,6 +19,22 @@
             padding-right: 20px;
             text-align: center;
             padding-left: 5%;
+
+            &:hover {
+                .data-in {
+                    display: none;
+                }
+
+                .card-arrow {
+                    color: $color-1;
+                    margin: -10%;
+                    display: block;
+                }
+            }
+        }
+
+        &-arrow {
+            display: none;
         }
     }
     
