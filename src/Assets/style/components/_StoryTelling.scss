@@ -1,0 +1,18 @@
+.parent-container-st {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.StoryTelling {
+    width: 60%;
+    .STtext {
+        text-align: justify;
+        padding-left: 10%;
+        padding-right: 20%;
+    }
+    h2 {
+        color: $color-1;
+    }
+}

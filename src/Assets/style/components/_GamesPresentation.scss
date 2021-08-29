@@ -1,0 +1,58 @@
+.GamesPresentation {
+    background-color: $color-1;
+    color: $color-4;
+    width: 60%;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    .GameBtn {
+        border-radius: 5px;
+        background-color: white;
+        display: inline-block;
+        padding: 10px;
+        margin: 5%;
+
+        &:hover {
+            color: $color-1;
+            border: 1px solid #393f4b;
+        }
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    img {
+        margin-left: 0;
+
+        &:not(.little_screen) {
+            margin-left: 15%;
+        }
+    }
+
+    $breakpoint: 850px;
+
+    @media (max-width : $breakpoint) {
+        .bigger_screen {
+            display: none
+        }
+        .little_screen {
+            display: block
+        }
+    }
+
+    @media (min-width : $breakpoint) {
+
+        .bigger_screen {
+            display: block
+        }
+
+        .little_screen {
+            display: none
+        }
+    }
+}

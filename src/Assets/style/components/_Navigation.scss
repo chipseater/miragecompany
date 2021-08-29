@@ -1,0 +1,61 @@
+.Navigation {
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    
+    
+    .nav-link {
+        font-size: 1.2em;
+        font-family: $font-3;
+        text-decoration: none;
+        display:inline-block;
+        color:white;
+        margin-right: 3%;
+    }
+
+    .nav-link-active {
+        text-decoration:underline;
+        text-decoration-thickness: 10px;
+    }
+
+    .text-banner {
+        font-size: 2.5em;
+        font-family: $font-3;
+        text-decoration: none;
+        display:inline-block;
+        color:white;
+    }
+
+    .banner {
+        display:flex;
+        align-items: center;
+    }
+
+    .logo {
+        width:15%;
+        min-width: 32px;
+        display:inline-block;
+    }
+}
+.scroll {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 12;
+
+    .text-banner {
+        font-size: 1.5em;
+        font-family: $font-3;
+        text-decoration: none;
+        display:inline-block;
+        color:white;
+    }
+
+    .logo {
+        width:10%;
+        min-width: 32px;  
+    }
+}

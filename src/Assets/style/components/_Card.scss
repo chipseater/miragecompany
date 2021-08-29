@@ -1,0 +1,23 @@
+.cards {
+    margin-top: 20px;
+    font-size: 1.5em;
+    margin-bottom: 7%;
+
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-title {
+            font-weight: bold;
+            color: $color-1;
+        }
+
+    
+        &-data {
+            text-align: center;
+            padding-left: 5%;
+        }
+    }
+    
+}

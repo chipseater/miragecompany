@@ -1,0 +1,37 @@
+.carousel {
+    overflow: hidden;
+    z-index: 1;
+
+    &__figure {
+        position: relative;
+        width: 300%;
+        transition: 1;
+        animation: 15s sliders infinite;
+  
+        &--pic {
+            width: 33.33%;
+            height: 93vh;
+            float: left;
+        }
+    }
+    .bg1 {
+        background-image: url("https://via.placeholder.com/1200x500/F3C412/808080?text=FrontImg1");
+    }
+    .bg2 {
+        background-image: url("https://via.placeholder.com/1200x500/A3541F/808080?text=FrontImg2");
+    }
+    .bg3 {
+        background-image: url("https://via.placeholder.com/1200x500/61dafb/808080?text=FrontImg3");
+    }
+}
+@keyframes sliders {
+0% {left: 0%;}
+20% {left: 0%;}
+25% {left: -100%;}
+45% {left: -100%;}
+50% {left: -200%;}
+70% {right: 200%;}
+75% {right: 100%;}
+95% {right: 100%;}
+100% {right: 0%;}
+}

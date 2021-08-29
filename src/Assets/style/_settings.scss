@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'creatoDisplay';
+    src: url("../fonts/creato_display/CreatoDisplay-Medium.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+h1 {
+    text-align: center;
+}
+
+$font-1: "Poppins", sans-serif;
+$font-2: "creatoDisplay", "sans-serif";
+$font-3: "Merriweather Sans", "sans-serif";
+
+$color-1: #61dafb;
+$color-2: #f7f7f7;
+$color-3: #282c34;
+$color-4: #dbdbdb;
+$color-4: rgb(32, 35, 42);
+
+* {
+  // box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin:0;
+  font-family: $font-2;
+  color: $color-3;
+  background-color: $color-2;
+}
+li {
+  list-style-type: none;
+}
+a:not(.nav-link) {
+  text-decoration: none;
+  color: $color-3;
+  cursor: pointer;
+  margin-right: 5%;
+}
+a:visited {
+  color: $color-3;
+}
+.vanish {
+  display:none
+}
+.unvanish {
+  display:block
+}

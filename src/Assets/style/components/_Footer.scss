@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:not(.CopyRight) {
+        font-weight: bold;
+    }
+
+    .right {
+        margin-left: 2%;
+    }
+    svg, img {
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .social-media {
+        margin-left: 10%;
+    }
+    
+}
